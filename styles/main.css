@@ -1,3 +1,21 @@
+.mdl-color--accent {
+    background-color: #f44336!important;
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
+    color: rgb(255,255,255);
+    background-color: #f44336;
+}
+
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 img {
   max-width: 100%;
 }
@@ -52,7 +70,7 @@ h3  {
     text-align: center;
 }
 .is-compact .site-logo {
-  height: 50px;
+  height: 55px;
   width: 50px;
   margin: 7px auto;
 }
