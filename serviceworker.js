@@ -5,3 +5,5 @@ self.addEventListener('fetch', function(event) {
       { headers: { 'Content-Type': 'text/css' } }
     ));
   }
+  });
+
