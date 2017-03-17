@@ -3,7 +3,10 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: -34.397, lng: 150.644},
-    zoom: 6
+    zoom: 6,
+	zoomControl: false,
+    scaleControl: false,
+    scrollwheel: false,
   });
   
 		
@@ -19,8 +22,9 @@ function initMap() {
 
 
 //hanley cinema
- var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(53.065563662792115, -2.1993255615234375),
+var marker = new google.maps.Marker({
+position: new google.maps.LatLng(53.065563662792115, -2.1993255615234375),
+   label: "Home Sale",
    map: map,
         });
 		
