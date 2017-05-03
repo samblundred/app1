@@ -1,6 +1,6 @@
 {
   "name": "Movie App",
-  "short_name": "App",
+  "short_name": "CineSam",
   "start_url": "/app1/index.html",
 
   "display": "standalone",
@@ -9,7 +9,7 @@
 
  "icons": [
   {
-   "src": "android-icon-36x36.png",
+   "src": "/android-icon-36x36.png",
    "sizes": "36x36",
    "type": "image/png",
    "density": "0.75"
